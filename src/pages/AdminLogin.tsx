@@ -16,8 +16,10 @@ export default function AdminLogin() {
     setError('')
     setLoading(true)
 
+    const cleanEmail = email.trim().toLowerCase()
+
     // specific strict check based on user constraints
-    if (email.toLowerCase() !== 'konuriveena@gmail.com' || password !== '220478') {
+    if (cleanEmail !== 'konuriveena@gmail.com' || password !== '220478') {
       setError('Unauthorized access. Invalid admin credentials.')
       setLoading(false)
       return
@@ -25,14 +27,14 @@ export default function AdminLogin() {
 
     try {
       // Try signing in
-      await signInWithEmailAndPassword(auth, email, password)
+      await signInWithEmailAndPassword(auth, cleanEmail, password)
       navigate('/admin')
     } catch (err: any) {
       console.log("Firebase Auth Error:", err.code)
       // Attempt seamless creation if doesn't exist for the first time
       if (err.code === 'auth/user-not-found' || err.code === 'auth/invalid-credential' || err.code === 'auth/invalid-login-credentials') {
         try {
-          await createUserWithEmailAndPassword(auth, email, password)
+          await createUserWithEmailAndPassword(auth, cleanEmail, password)
           navigate('/admin')
         } catch (createErr: any) {
           setError(createErr.message || 'Error communicating with authentication server.')

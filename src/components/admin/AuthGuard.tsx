@@ -11,7 +11,7 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user: any) => {
-      if (user && user.email === 'konuriveena@gmail.com') {
+      if (user && user.email?.trim().toLowerCase() === 'konuriveena@gmail.com') {
         setAuthenticated(true)
       } else {
         setAuthenticated(false)
