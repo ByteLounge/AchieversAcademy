@@ -21,10 +21,10 @@ export default function AdminDashboard() {
               <p style={{ fontWeight: 600, margin: 0 }}>Veena Sanikop</p>
               <p className="text-muted" style={{ fontSize: '0.75rem', margin: '0.25rem 0 0.5rem 0' }}>B.Com/B.Ed • 20+ Years Experience</p>
               <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', lineHeight: '1.4' }}>
-                <p style={{ margin: 0 }}>Taught 10,000+ students across:</p>
+                <p style={{ margin: 0 }}>Taught at distinguished institutions in Mapusa:</p>
                 <ul style={{ margin: '0 0 0 1rem', padding: 0 }}>
-                  <li>Dattaram Mantrawadi Memorial High School, Mapusa</li>
-                  <li>Saraswat High School, Mapusa</li>
+                  <li>Dattaram Mantrawadi Memorial High School</li>
+                  <li>Saraswat Vidyalaya</li>
                 </ul>
               </div>
             </div>
