@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Timetable() {
   const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]

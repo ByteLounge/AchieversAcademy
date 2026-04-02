@@ -1,4 +1,3 @@
-import React from 'react'
 import { FileText, Award, Calendar, Bell } from 'lucide-react'
 
 export default function ParentPortal() {

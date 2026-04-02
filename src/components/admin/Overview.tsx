@@ -1,4 +1,3 @@
-import React from 'react'
 import { Users, GraduationCap, CreditCard, Activity } from 'lucide-react'
 
 export default function Overview() {

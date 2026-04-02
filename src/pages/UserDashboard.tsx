@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { BookOpen, Calendar, CreditCard, UserPlus, Phone, Award } from 'lucide-react'
+import { Phone, Award } from 'lucide-react'
 
 // Components
 import HeroSection from '../components/user/HeroSection'

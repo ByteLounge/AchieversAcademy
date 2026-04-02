@@ -1,4 +1,3 @@
-import React from 'react'
 import { Calendar, FileBarChart, Bell } from 'lucide-react'
 
 export default function AcademicManagement() {
