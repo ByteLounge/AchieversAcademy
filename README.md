@@ -2,6 +2,26 @@
 
 A modern, responsive, and minimalist educational management platform built for Achievers Academy. This application serves as an admission and fee portal for students and parents while providing a secured management dashboard for teachers.
 
+## UI
+
+<img width="1898" height="866" alt="Screenshot 2026-04-04 130247" src="https://github.com/user-attachments/assets/280138a5-1df9-4208-970f-e6855534990a" />
+
+<img width="1900" height="868" alt="Screenshot 2026-04-04 130258" src="https://github.com/user-attachments/assets/bb93ba57-8154-44a4-b311-a6d9f205cdf8" />
+
+<img width="1901" height="869" alt="Screenshot 2026-04-04 130308" src="https://github.com/user-attachments/assets/fba84a4c-b79a-443a-99b3-f8b5f319fcde" />
+
+<img width="1896" height="872" alt="Screenshot 2026-04-04 130320" src="https://github.com/user-attachments/assets/ef8a53a2-7ab2-4468-812c-86bc8eb6cf4b" />
+
+<img width="1901" height="865" alt="Screenshot 2026-04-04 130350" src="https://github.com/user-attachments/assets/ab71a231-3bd3-450b-8057-714c1780e1e9" />
+
+<img width="1908" height="866" alt="Screenshot 2026-04-04 130400" src="https://github.com/user-attachments/assets/cb943a17-94d5-4425-80e9-e5e0bb610546" />
+
+<img width="1915" height="866" alt="Screenshot 2026-04-04 130409" src="https://github.com/user-attachments/assets/35cd4c87-cde8-4a91-8006-59cb3539afa4" />
+
+<img width="1896" height="865" alt="Screenshot 2026-04-04 130420" src="https://github.com/user-attachments/assets/38063776-b1fa-4927-9ce7-6d428e76e95b" />
+
+
+
 ## Features ✨
 
 ### User Dashboard (Public)
